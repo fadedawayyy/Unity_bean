@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 4d16b94aaa0cb5a4dacd919c74eac6f4
+guid: a56e7938363f6c140916dc1887a5d2d5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7357583726788872181
-    second: Eka2_0
+      213: 509175316405919338
+    second: tvcartoon_0
+  - first:
+      213: 5827966822821063472
+    second: tvcartoon_1
+  - first:
+      213: -749336508410319862
+    second: tvcartoon_2
+  - first:
+      213: -618720629643649829
+    second: tvcartoon_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,43 +105,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Eka2_0
+      name: tvcartoon_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 350
-        height: 512
+        x: 121
+        y: 3
+        width: 598
+        height: 590
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f70278da636b1660800000000000000
-      internalID: 7357583726788872181
+      spriteID: a6e95c6a044f01700800000000000000
+      internalID: 509175316405919338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tvcartoon_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 591
+        width: 229
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03be20d82f811e050800000000000000
+      internalID: 5827966822821063472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tvcartoon_2
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 590
+        width: 242
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ca8fe6a62d995f0800000000000000
+      internalID: -749336508410319862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tvcartoon_3
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 2
+        width: 50
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc52ee8ddcd967f0800000000000000
+      internalID: -618720629643649829
       vertices: []
       indices: 
       edges: []
@@ -160,8 +209,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Eka2_0: 7357583726788872181
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
