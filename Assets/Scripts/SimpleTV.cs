@@ -5,7 +5,8 @@ public class SimpleTV : MonoBehaviour
 {
     public GameObject tvScreen;
     public GameObject[] channels;
-
+    private float savedVolume = 1.0f;
+    private bool isMuted = false;
     
     public void PowerButton(bool isOn)
     {
@@ -38,4 +39,21 @@ public class SimpleTV : MonoBehaviour
         if (AudioListener.volume < 0) AudioListener.volume = 0;
         if (AudioListener.volume > 1) AudioListener.volume = 1;
     }
+
+
+    public void ToggleMute()
+    {
+        if(isMuted == false)
+        {
+            savedVolume = AudioListener.volume;
+            AudioListener.volume = 0;
+            isMuted = true;
+        }
+        else
+        {
+            AudioListener.volume = savedVolume;
+            isMuted = false;
+        }
+    }
+
 }
