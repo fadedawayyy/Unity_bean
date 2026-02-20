@@ -124,20 +124,20 @@ TextureImporter:
       name: BeanWalk_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 7
-        width: 182
-        height: 491
+        x: 1
+        y: 8
+        width: 180
+        height: 489
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f349c349d9e335290800000000000000
-      internalID: -7902904074587302849
+      spriteID: ff1ba051683b9ee40886e5531142cb97
+      internalID: 1652079916
       vertices: []
       indices: 
       edges: []
@@ -146,20 +146,20 @@ TextureImporter:
       name: BeanWalk_1
       rect:
         serializedVersion: 2
-        x: 210
-        y: 7
-        width: 164
-        height: 453
+        x: 211
+        y: 8
+        width: 162
+        height: 451
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 896f8f5cefd24e9f0800000000000000
-      internalID: -440176291309095272
+      spriteID: 70fb91b279bb50e4688aab0269e5c1d0
+      internalID: 993698820
       vertices: []
       indices: 
       edges: []
@@ -168,20 +168,20 @@ TextureImporter:
       name: BeanWalk_2
       rect:
         serializedVersion: 2
-        x: 399
-        y: 7
-        width: 164
-        height: 453
+        x: 400
+        y: 8
+        width: 162
+        height: 451
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a795d6ba7758efad0800000000000000
-      internalID: -2666547180333082246
+      spriteID: 61a5f0544196b24409c7044c458155bc
+      internalID: -784914498
       vertices: []
       indices: 
       edges: []
@@ -190,20 +190,20 @@ TextureImporter:
       name: BeanWalk_3
       rect:
         serializedVersion: 2
-        x: 589
-        y: 3
-        width: 163
-        height: 457
+        x: 590
+        y: 4
+        width: 161
+        height: 455
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 58dccdfdea03edab0800000000000000
-      internalID: -4981490610186957435
+      spriteID: 9d15121c3b1677442b3c7e4c219d4183
+      internalID: -1383065714
       vertices: []
       indices: 
       edges: []
@@ -212,20 +212,20 @@ TextureImporter:
       name: BeanWalk_4
       rect:
         serializedVersion: 2
-        x: 785
-        y: 3
-        width: 171
-        height: 453
+        x: 786
+        y: 4
+        width: 169
+        height: 451
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6a0ca0cac1fbec1e0800000000000000
-      internalID: -2175591440106995546
+      spriteID: 10b8a3c56163acb44869452fd0d7d8ce
+      internalID: -1726151022
       vertices: []
       indices: 
       edges: []
@@ -234,20 +234,20 @@ TextureImporter:
       name: BeanWalk_5
       rect:
         serializedVersion: 2
-        x: 863
-        y: 450
-        width: 6
-        height: 6
+        x: 864
+        y: 451
+        width: 4
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 335047a350b910970800000000000000
-      internalID: 8719420800323814707
+      spriteID: a12d6399be13b7345a29bfa7c8195578
+      internalID: 1004781516
       vertices: []
       indices: 
       edges: []
@@ -256,20 +256,20 @@ TextureImporter:
       name: BeanWalk_6
       rect:
         serializedVersion: 2
-        x: 954
-        y: 3
-        width: 176
-        height: 449
+        x: 955
+        y: 4
+        width: 174
+        height: 447
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 47328f4edadddab00800000000000000
-      internalID: 841572444328698740
+      spriteID: 6f2cd05804bb6f446b4b2d075321a883
+      internalID: 1922544997
       vertices: []
       indices: 
       edges: []
@@ -278,20 +278,20 @@ TextureImporter:
       name: BeanWalk_7
       rect:
         serializedVersion: 2
-        x: 1032
-        y: 446
-        width: 6
-        height: 6
+        x: 1033
+        y: 447
+        width: 4
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e8d0a160bc550bac0800000000000000
-      internalID: -3841476151677940338
+      spriteID: d4177ec1eb865914f9aabc7dd6cfadae
+      internalID: -969388791
       vertices: []
       indices: 
       edges: []
@@ -300,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e4f2515934461f44a9886ce5a6e6cabe
     internalID: 0
     vertices: []
     indices: 
@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BeanWalk_0: 1652079916
+      BeanWalk_1: 993698820
+      BeanWalk_2: -784914498
+      BeanWalk_3: -1383065714
+      BeanWalk_4: -1726151022
+      BeanWalk_5: 1004781516
+      BeanWalk_6: 1922544997
+      BeanWalk_7: -969388791
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
