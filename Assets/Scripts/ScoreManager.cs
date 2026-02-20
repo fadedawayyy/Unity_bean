@@ -1,30 +1,31 @@
 using UnityEngine;
-using TMPro; // Подключаем библиотеку для работы с современным текстом
+using TMPro; // Для TextMeshPro
+using UnityEngine.UI; // Для обычного текста
 
 public class ScoreManager : MonoBehaviour
 {
     public int score = 0;
 
-    // Заменяем обычный Text на TextMeshProUGUI
-    public TextMeshProUGUI scoreText;
-
-    void Start()
-    {
-        UpdateUI();
-    }
+    [Header("Перетащи сюда ScoreDisplay")]
+    public TextMeshProUGUI scoreTextMesh; // Поле для TMP
+    public Text scoreTextStandard;        // Поле для обычного текста
 
     public void AddScore(int amount)
     {
         score += amount;
-        UpdateUI();
+        Debug.Log("Счет в скрипте вырос: " + score);
+        UpdateScoreText();
     }
 
-    void UpdateUI()
+    void UpdateScoreText()
     {
-        // Проверяем, привязан ли текст, чтобы не было ошибок в консоли
-        if (scoreText != null)
+        // Обновляем тот текст, который ты привязал
+        if (scoreTextMesh != null)
         {
-            scoreText.text = "Score: " + score;
+            scoreTextMesh.text = "Score: " + score;
         }
+
+
+        
     }
 }
