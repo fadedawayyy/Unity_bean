@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections; // Нужно для задержки
 
 public class HealthManager : MonoBehaviour
 {
@@ -20,11 +21,26 @@ public class HealthManager : MonoBehaviour
     public float emptyHeartScale = 10f;
 
     [Header("UI Проигрыша")]
-    public GameObject gameOverPanel; // Сюда перетащи панель из Canvas
+    public GameObject gameOverPanel;
+
+    [Header("Звуки")]
+    public AudioClip gameOverSound; // Звук при смерти
+    public AudioClip restartSound;  // Звук при нажатии Restart
+    private AudioSource audioSource;
+
+    void Start()
+    {
+        // Получаем или добавляем компонент AudioSource
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null) audioSource = gameObject.AddComponent<AudioSource>();
+
+        // Чтобы звуки не затихали при паузе
+        audioSource.ignoreListenerPause = true;
+    }
 
     public void TakeDamage()
     {
-        if (health <= 0) return; // Чтобы нельзя было бить труп
+        if (health <= 0) return;
 
         health -= 1;
         UpdateHeartsUI();
@@ -59,14 +75,37 @@ public class HealthManager : MonoBehaviour
 
     void ShowGameOver()
     {
-        gameOverPanel.SetActive(true); // Показываем экран смерти
-        Time.timeScale = 0f; // Полностью останавливаем время в игре (Бин не сможет ходить)
+        // 1. Проигрываем звук смерти
+        if (audioSource != null && gameOverSound != null)
+        {
+            audioSource.PlayOneShot(gameOverSound);
+        }
+
+        // 2. Показываем панель
+        gameOverPanel.SetActive(true);
+
+        // 3. Останавливаем время
+        Time.timeScale = 0f;
     }
 
-    // Этот метод мы привяжем к кнопке
     public void RestartGame()
     {
-        Time.timeScale = 1f; // Возвращаем время в норму перед перезагрузкой
+        // Запускаем корутину, чтобы звук успел проиграться перед перезагрузкой сцены
+        StartCoroutine(RestartWithSound());
+    }
+
+    IEnumerator RestartWithSound()
+    {
+        // Проигрываем звук рестарта
+        if (audioSource != null && restartSound != null)
+        {
+            audioSource.PlayOneShot(restartSound);
+        }
+
+        // Ждем немного времени (в реальных секундах, т.к. timeScale = 0)
+        yield return new WaitForSecondsRealtime(0.5f);
+
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
