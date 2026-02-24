@@ -37,3 +37,25 @@ Poga «MUTE»: Tūlītēja visu skaņu izslēgšana vai ieslēgšana.
 
 Poga «EXIT»: Iziešana galvenajā izvēlnē.
 
+## Virtuļu spēle
+
+<img src="https://cdn.discordapp.com/attachments/1389733569282314290/1475957498945994752/A7E278D4-4A62-4041-A9D1-5D3D8927FA70.png?ex=699f6009&is=699e0e89&hm=00e85d96416772fcce9c7d4b4b3ab59db7b3dde31d2726f2b566fa39b2a7405d&" width="700">
+
+Dinamiska 2D arkādes spēle, kas izstrādāta Unity vidē. Spēlētāja uzdevums ir ķert krītošus virtuļus un izvairīties no bīstamiem priekšmetiem.
+
+## Galvenās funkcijas
+Vērtību sistēma: Dažādi virtuļu veidi dod atšķirīgu punktu skaitu (konfigurējams caur ItemValue skriptu).
+
+Veselības mehānika: Vizuāls dzīvību attēlojums ar sirdīm, kas maina izmēru un izskatu, saņemot bojājumus.
+
+Skaņas vadība: Fona mūzika un skaņas efekti pie priekšmetu savākšanas, spēles sākuma un zaudējuma.
+
+Lietotāja saskarne (UI):
+
+Sākuma izvēlne spēles uzsākšanai.
+
+Pauzes ekrāns, nospiežot Esc.
+
+Game Over ekrāns ar iespēju acumirklī restartēt spēli.
+
+Adaptīva vadība: Gluda varoņa kustība ar animācijām un daļiņu efektiem (putekļi zem kājām).
